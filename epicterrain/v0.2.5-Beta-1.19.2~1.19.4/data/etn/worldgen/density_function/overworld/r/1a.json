@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:range_choice",
+  "input": "etn:overworld/e/21",
+  "min_inclusive": -0.19,
+  "max_exclusive": 0.4,
+  "when_in_range": {
+    "type": "minecraft:range_choice",
+    "input": "etn:overworld/r/2",
+    "min_inclusive": -0.18,
+    "max_exclusive": 0.18,
+    "when_in_range": {
+      "type": "minecraft:range_choice",
+      "input": "etn:overworld/r/1",
+      "min_inclusive": -0.003,
+      "max_exclusive": 0.003,
+      "when_in_range": 0,
+      "when_out_of_range": 1
+    },
+    "when_out_of_range": 1
+  },
+  "when_out_of_range": 1
+}

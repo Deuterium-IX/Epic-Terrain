@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:add",
+  "argument1": {
+    "type": "minecraft:square",
+    "argument": {
+      "type": "minecraft:abs",
+      "argument": "etn:overworld/r/2"
+    }
+  },
+  "argument2": "etn:overworld/e/3"
+}

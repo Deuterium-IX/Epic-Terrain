@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:cache_2d",
+  "argument": {
+    "type": "minecraft:mul",
+    "argument1": {
+      "type": "minecraft:add",
+      "argument1": {
+        "type": "minecraft:add",
+        "argument1": {
+          "type": "minecraft:mul",
+          "argument1": "etn:overworld/e/b/3",
+          "argument2": 0.8
+        },
+        "argument2": -0.5
+      },
+      "argument2": "etn:overworld/e/a/a"
+    },
+    "argument2": 1
+  }
+}

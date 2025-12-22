@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:cache_2d",
+  "argument": {
+    "type": "minecraft:range_choice",
+    "input": "etn:overworld/m/rm",
+    "min_inclusive": -0.1,
+    "max_exclusive": 0.2,
+    "when_in_range": "etn:overworld/m/rm",
+    "when_out_of_range": {
+      "type": "minecraft:add",
+      "argument1": "etn:overworld/m/rm",
+      "argument2": {
+        "type": "minecraft:mul",
+        "argument1": {
+          "type": "minecraft:noise",
+          "noise": "etn:excessive_biomes/erosion",
+          "xz_scale": 0.6,
+          "y_scale": 0
+        },
+        "argument2": 0.03
+      }
+    }
+  }
+}

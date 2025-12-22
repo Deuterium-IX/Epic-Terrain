@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:mul",
+  "argument1": {
+    "type": "minecraft:mul",
+    "argument1": "etn:overworld/r/1a",
+    "argument2": "etn:overworld/r/2a"
+  },
+  "argument2": {
+    "type": "minecraft:add",
+    "argument1": "etn:overworld/r/1/4",
+    "argument2": "etn:overworld/r/2/4"
+  }
+}

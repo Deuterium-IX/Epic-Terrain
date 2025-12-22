@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:add",
+  "argument1": {
+    "type": "minecraft:mul",
+    "argument1": {
+      "type": "minecraft:abs",
+      "argument": "etn:overworld/e/c/1"
+    },
+    "argument2": 1
+  },
+  "argument2": 0
+}

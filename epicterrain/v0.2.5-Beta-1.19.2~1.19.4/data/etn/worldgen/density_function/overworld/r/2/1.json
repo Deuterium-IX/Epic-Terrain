@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:cache_2d",
+  "argument": {
+    "type": "minecraft:spline",
+    "spline": {
+      "coordinate": {
+        "type": "minecraft:abs",
+        "argument": "etn:overworld/r/2"
+      },
+      "points": [
+        {
+          "location": 0.012,
+          "derivative": 0,
+          "value": -0.2
+        },
+        {
+          "location": 0.06,
+          "derivative": 0,
+          "value": 0
+        }
+      ]
+    }
+  }
+}

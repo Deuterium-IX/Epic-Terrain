@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:disk",
+  "config": {
+    "state_provider": {
+      "fallback": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:stone"
+        }
+      },
+      "rules": []
+    },
+    "radius": 6,
+    "half_height": 1,
+    "target": {
+      "type": "minecraft:matching_block_tag",
+      "tag": "minecraft:dirt"
+    }
+  }
+}

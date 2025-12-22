@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:mul",
+  "argument1": {
+    "type": "minecraft:add",
+    "argument1": "etn:overworld/e/c/1_x",
+    "argument2": "etn:overworld/e/c/1_z"
+  },
+  "argument2": -3
+}

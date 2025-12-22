@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:cache_2d",
+  "argument": {
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:mul",
+      "argument1": {
+        "type": "minecraft:mul",
+        "argument1": {
+          "type": "minecraft:add",
+          "argument1": "etn:overworld/continents",
+          "argument2": -1
+        },
+        "argument2": -1
+      },
+      "argument2": {
+        "type": "minecraft:add",
+        "argument1": "etn:overworld/temperature",
+        "argument2": 1
+      }
+    },
+    "argument2": -1
+  }
+}

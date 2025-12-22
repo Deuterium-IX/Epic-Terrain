@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:add",
+  "argument1": "etn:overworld/r/1/1",
+  "argument2": {
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:mul",
+      "argument1": "etn:overworld/continents",
+      "argument2": 0.4
+    },
+    "argument2": {
+      "type": "minecraft:mul",
+      "argument1": {
+        "type": "minecraft:abs",
+        "argument": "etn:overworld/r/2"
+      },
+      "argument2": 0.6
+    }
+  }
+}

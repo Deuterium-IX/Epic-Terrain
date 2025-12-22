@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:lake",
+  "config": {
+    "fluid": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:water",
+        "Properties": {
+          "level": "0"
+        }
+      }
+    },
+    "barrier": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:mud"
+          }
+        },
+        {
+          "weight": 2,
+          "data": {
+            "Name": "minecraft:sand"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:dirt"
+          }
+        }
+      ]
+    }
+  }
+}
