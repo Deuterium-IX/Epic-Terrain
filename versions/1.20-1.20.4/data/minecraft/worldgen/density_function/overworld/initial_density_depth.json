@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:range_choice",
+  "input": "etn:overworld/caves/6",
+  "min_inclusive": -9,
+  "max_exclusive": 0.2,
+  "when_in_range": -1,
+  "when_out_of_range": {
+    "type": "minecraft:range_choice",
+    "input": "etn:overworld/ridges/d_water/method/5",
+    "min_inclusive": -9,
+    "max_exclusive": 0,
+    "when_in_range": -1,
+    "when_out_of_range": "minecraft:overworld/depth"
+  }
+}

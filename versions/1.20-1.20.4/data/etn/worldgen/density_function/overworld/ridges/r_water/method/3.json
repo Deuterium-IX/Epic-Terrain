@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:clamp",
+    "input": {
+      "type": "minecraft:add",
+      "argument1": -0.021,
+      "argument2": "etn:overworld/ridges/r_water/method/2_avg"
+    },
+    "min": 0,
+    "max": 1
+  }
+}

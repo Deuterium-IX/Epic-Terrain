@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:shifted_noise",
+    "noise": "etn:ridge",
+    "xz_scale": 0.25,
+    "y_scale": 0,
+    "shift_x": 0,
+    "shift_y": {
+      "type": "minecraft:mul",
+      "argument1": 10000,
+      "argument2": "etn:overworld/erosion/e_wind/w_shore/method"
+    },
+    "shift_z": 0
+  }
+}

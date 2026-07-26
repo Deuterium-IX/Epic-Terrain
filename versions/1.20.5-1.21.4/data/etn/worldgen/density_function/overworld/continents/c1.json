@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:cache_2d",
+  "argument": {
+    "type": "minecraft:mul",
+    "argument1": {
+      "type": "minecraft:flat_cache",
+      "argument": "etn:overworld/continents/c"
+    },
+    "argument2": -1
+  }
+}

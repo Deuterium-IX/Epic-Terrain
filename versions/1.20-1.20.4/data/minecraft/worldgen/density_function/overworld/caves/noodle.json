@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:max",
+  "argument1": {
+    "type": "minecraft:min",
+    "argument1": {
+      "type": "minecraft:range_choice",
+      "input": "minecraft:overworld/offset",
+      "min_inclusive": -0.1,
+      "max_exclusive": 2,
+      "when_in_range": "minecraft:overworld/caves/noodle_2",
+      "when_out_of_range": {
+        "type": "minecraft:range_choice",
+        "input": "minecraft:overworld/depth",
+        "min_inclusive": 0.1,
+        "max_exclusive": 2,
+        "when_in_range": "minecraft:overworld/caves/noodle_2",
+        "when_out_of_range": 1
+      }
+    },
+    "argument2": "etn:overworld/ridges/r_water/method/5"
+  },
+  "argument2": {
+    "type": "minecraft:y_clamped_gradient",
+    "from_y": -55,
+    "to_y": -60,
+    "from_value": -1.5,
+    "to_value": 1.5
+  }
+}

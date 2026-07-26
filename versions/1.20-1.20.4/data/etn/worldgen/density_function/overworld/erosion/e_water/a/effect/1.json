@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:mul",
+    "argument1": {
+      "type": "minecraft:add",
+      "argument1": 1,
+      "argument2": "etn:overworld/erosion/e_water/a/method/1_avg"
+    },
+    "argument2": "etn:overworld/ridges/r_water/r_m"
+  }
+}

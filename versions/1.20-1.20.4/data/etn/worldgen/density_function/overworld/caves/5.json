@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:cache_once",
+  "argument": {
+    "type": "minecraft:mul",
+    "argument1": 2,
+    "argument2": {
+      "type": "minecraft:max",
+      "argument1": "etn:overworld/caves/3_down",
+      "argument2": {
+        "type": "minecraft:max",
+        "argument1": "etn:overworld/caves/2_top",
+        "argument2": {
+          "type": "minecraft:add",
+          "argument1": {
+            "type": "minecraft:range_choice",
+            "input": "etn:overworld/caves/1_river",
+            "min_inclusive": 0,
+            "max_exclusive": 0.025,
+            "when_in_range": -1,
+            "when_out_of_range": "minecraft:overworld/caves/pillars"
+          },
+          "argument2": {
+            "type": "minecraft:add",
+            "argument1": "etn:overworld/erosion/e_water/c/method/1_avg",
+            "argument2": -0.05
+          }
+        }
+      }
+    }
+  }
+}

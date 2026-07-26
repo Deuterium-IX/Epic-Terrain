@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:mul",
+      "argument1": 0.2,
+      "argument2": "etn:overworld/erosion/e_wind/w_shore/w_s"
+    },
+    "argument2": {
+      "type": "minecraft:add",
+      "argument1": {
+        "type": "minecraft:mul",
+        "argument1": 0.2,
+        "argument2": "etn:overworld/erosion/e_wind/w_temperature/effect"
+      },
+      "argument2": {
+        "type": "minecraft:mul",
+        "argument1": 0.5,
+        "argument2": "etn:overworld/erosion/e_tectonic/e_t"
+      }
+    }
+  }
+}

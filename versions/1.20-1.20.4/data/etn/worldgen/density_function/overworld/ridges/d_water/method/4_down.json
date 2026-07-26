@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:cache_once",
+  "argument": {
+    "type": "minecraft:range_choice",
+    "input": "etn:overworld/ridges/d_water/method/3",
+    "min_inclusive": -1,
+    "max_exclusive": 0,
+    "when_in_range": {
+      "type": "minecraft:add",
+      "argument1": "etn:overworld/ridges/d_water/method/3",
+      "argument2": {
+        "type": "minecraft:y_clamped_gradient",
+        "from_y": 52,
+        "to_y": 70,
+        "from_value": 1,
+        "to_value": -1
+      }
+    },
+    "when_out_of_range": 1
+  }
+}

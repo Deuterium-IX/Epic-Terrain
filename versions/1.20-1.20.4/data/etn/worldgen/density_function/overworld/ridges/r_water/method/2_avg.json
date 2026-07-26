@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:mul",
+    "argument1": 60,
+    "argument2": {
+      "type": "minecraft:min",
+      "argument1": {
+        "type": "minecraft:abs",
+        "argument": "etn:overworld/ridges/r_water/method/1_x"
+      },
+      "argument2": {
+        "type": "minecraft:abs",
+        "argument": "etn:overworld/ridges/r_water/method/1_z"
+      }
+    }
+  }
+}

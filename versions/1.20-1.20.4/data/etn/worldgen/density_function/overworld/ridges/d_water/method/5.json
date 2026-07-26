@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:cache_once",
+  "argument": {
+    "type": "minecraft:max",
+    "argument1": "etn:overworld/ridges/d_water/method/4_down",
+    "argument2": "etn:overworld/ridges/d_water/method/4_top"
+  }
+}

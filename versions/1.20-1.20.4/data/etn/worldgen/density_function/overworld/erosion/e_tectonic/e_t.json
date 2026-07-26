@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:mul",
+    "argument1": "etn:overworld/erosion/e_tectonic/effect",
+    "argument2": {
+      "type": "minecraft:spline",
+      "spline": {
+        "coordinate": {
+          "type": "minecraft:abs",
+          "argument": "etn:overworld/condition/vegetation/1"
+        },
+        "points": [
+          {
+            "location": 0.25,
+            "derivative": 0,
+            "value": 0
+          },
+          {
+            "location": 1,
+            "derivative": 0,
+            "value": 1
+          }
+        ]
+      }
+    }
+  }
+}

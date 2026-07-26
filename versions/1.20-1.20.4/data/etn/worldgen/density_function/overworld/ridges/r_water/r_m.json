@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:add",
+    "argument1": "etn:overworld/ridges/r_water/effect/r_w",
+    "argument2": "etn:overworld/ridges/r_water/r_m1"
+  }
+}

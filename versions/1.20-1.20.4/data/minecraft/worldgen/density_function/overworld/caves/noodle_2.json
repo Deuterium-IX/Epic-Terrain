@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:min",
+  "argument1": {
+    "type": "minecraft:add",
+    "argument1": -0.1,
+    "argument2": "minecraft:overworld/caves/noodle_1"
+  },
+  "argument2": "etn:overworld/caves/6"
+}

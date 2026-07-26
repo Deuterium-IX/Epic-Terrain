@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:spline",
+    "spline": {
+      "coordinate": "etn:overworld/condition/continents/2",
+      "points": [
+        {
+          "location": -1.2,
+          "derivative": 0,
+          "value": -1.2
+        },
+        {
+          "location": -0.16,
+          "derivative": 0,
+          "value": -0.16
+        },
+        {
+          "location": 0,
+          "derivative": 0,
+          "value": {
+            "coordinate": {
+              "type": "minecraft:add",
+              "argument1": "etn:overworld/condition/continents/1",
+              "argument2": {
+                "type": "minecraft:mul",
+                "argument1": 0.05,
+                "argument2": "etn:overworld/condition/excessive_biomes"
+              }
+            },
+            "points": [
+              {
+                "location": -0.1,
+                "derivative": 0,
+                "value": -0.1
+              },
+              {
+                "location": 1.5,
+                "derivative": 0,
+                "value": 1
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

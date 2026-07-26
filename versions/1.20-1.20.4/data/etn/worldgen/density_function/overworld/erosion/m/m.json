@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:add",
+    "argument1": "etn:overworld/erosion/e_water/c/c_m",
+    "argument2": {
+      "type": "minecraft:add",
+      "argument1": {
+        "type": "minecraft:mul",
+        "argument1": 0.1,
+        "argument2": {
+          "type": "minecraft:mul",
+          "argument1": "etn:overworld/ridges/r_water/method/5",
+          "argument2": {
+            "type": "minecraft:add",
+            "argument1": 1,
+            "argument2": "minecraft:overworld/base_3d_noise"
+          }
+        }
+      },
+      "argument2": {
+        "type": "minecraft:mul",
+        "argument1": 0.06,
+        "argument2": "etn:overworld/erosion/m/1"
+      }
+    }
+  }
+}
