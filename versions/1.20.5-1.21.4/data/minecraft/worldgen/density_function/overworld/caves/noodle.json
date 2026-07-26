@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:add",
+  "argument1": {
+    "type": "minecraft:range_choice",
+    "input": "etn:overworld/caves/magma_caves",
+    "min_inclusive": -1,
+    "max_exclusive": 0,
+    "when_in_range": "etn:overworld/caves/magma_caves",
+    "when_out_of_range": {
+      "type": "minecraft:range_choice",
+      "input": "etn:overworld/caves/noodle1",
+      "min_inclusive": -1,
+      "max_exclusive": 1,
+      "when_in_range": "etn:overworld/caves/noodle1",
+      "when_out_of_range": 2
+    }
+  },
+  "argument2": 0
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:range_choice",
+    "input": {
+      "type": "minecraft:add",
+      "argument1": {
+        "type": "minecraft:mul",
+        "argument1": 0.4,
+        "argument2": {
+          "type": "minecraft:abs",
+          "argument": "etn:overworld/ridges/r_water/method/1"
+        }
+      },
+      "argument2": "etn:overworld/ridges/r_water/method/2_avg"
+    },
+    "min_inclusive": 0,
+    "max_exclusive": 0.175,
+    "when_in_range": {
+      "type": "minecraft:range_choice",
+      "input": "etn:overworld/ridges/r_water/method/2_avg",
+      "min_inclusive": 0,
+      "max_exclusive": 0.02,
+      "when_in_range": 0,
+      "when_out_of_range": 1
+    },
+    "when_out_of_range": 1
+  }
+}

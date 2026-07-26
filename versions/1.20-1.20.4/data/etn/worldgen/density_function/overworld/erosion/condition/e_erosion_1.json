@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:mul",
+      "argument1": 0.05,
+      "argument2": "etn:overworld/condition/excessive_biomes"
+    },
+    "argument2": "etn:overworld/erosion/condition/e_erosion"
+  }
+}

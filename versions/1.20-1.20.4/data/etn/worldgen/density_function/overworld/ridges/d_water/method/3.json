@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:mul",
+    "argument1": 98,
+    "argument2": {
+      "type": "minecraft:add",
+      "argument1": -0.01,
+      "argument2": "etn:overworld/ridges/d_water/method/2_avg"
+    }
+  }
+}

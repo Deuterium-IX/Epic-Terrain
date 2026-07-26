@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:shifted_noise",
+    "noise": "etn:e/e_tectonic",
+    "xz_scale": 1,
+    "y_scale": 0,
+    "shift_x": 0,
+    "shift_y": {
+      "type": "minecraft:mul",
+      "argument1": 3000,
+      "argument2": "etn:overworld/ridges/r_water/effect/r_w"
+    },
+    "shift_z": 0
+  }
+}

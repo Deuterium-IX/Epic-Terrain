@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:cache_once",
+  "argument": {
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:y_clamped_gradient",
+      "from_y": 40,
+      "to_y": -66,
+      "from_value": 1,
+      "to_value": -1
+    },
+    "argument2": {
+      "type": "minecraft:spline",
+      "spline": {
+        "coordinate": "etn:overworld/caves/1_river",
+        "points": [
+          {
+            "location": 0,
+            "derivative": 0,
+            "value": -0.4
+          },
+          {
+            "location": 0.06,
+            "derivative": 0,
+            "value": {
+              "coordinate": "etn:overworld/erosion/e_water/c/method/1_avg",
+              "points": [
+                {
+                  "location": -1,
+                  "derivative": 0,
+                  "value": -1
+                },
+                {
+                  "location": 1,
+                  "derivative": 0,
+                  "value": 1
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:add",
+      "argument1": {
+        "type": "minecraft:mul",
+        "argument1": 0.05,
+        "argument2": "etn:overworld/erosion/e_wind/w_shore/effect"
+      },
+      "argument2": {
+        "type": "minecraft:mul",
+        "argument1": 0.1,
+        "argument2": "etn:overworld/erosion/e_wind/w_temperature/effect"
+      }
+    },
+    "argument2": "etn:overworld/condition/continents/1"
+  }
+}

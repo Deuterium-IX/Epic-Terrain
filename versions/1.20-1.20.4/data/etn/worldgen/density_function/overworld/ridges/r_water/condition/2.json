@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:mul",
+      "argument1": 0.05,
+      "argument2": "etn:overworld/condition/excessive_biomes"
+    },
+    "argument2": {
+      "type": "minecraft:add",
+      "argument1": "etn:overworld/ridges/r_water/r_m1",
+      "argument2": {
+        "type": "minecraft:add",
+        "argument1": "etn:overworld/ridges/r_water/method/3",
+        "argument2": {
+          "type": "minecraft:mul",
+          "argument1": 1.1,
+          "argument2": {
+            "type": "minecraft:abs",
+            "argument": "etn:overworld/ridges/r_water/method/1"
+          }
+        }
+      }
+    }
+  }
+}

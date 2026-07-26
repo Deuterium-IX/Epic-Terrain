@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:mul",
+  "argument1": {
+    "type": "minecraft:add",
+    "argument1": "etn:overworld/caves/a/1",
+    "argument2": "etn:overworld/caves/a/2"
+  },
+  "argument2": 1
+}

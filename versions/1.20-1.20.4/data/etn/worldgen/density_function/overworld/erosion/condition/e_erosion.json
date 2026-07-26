@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:add",
+    "argument1": -1,
+    "argument2": {
+      "type": "minecraft:mul",
+      "argument1": {
+        "type": "minecraft:add",
+        "argument1": 1,
+        "argument2": {
+          "type": "minecraft:mul",
+          "argument1": 1.2,
+          "argument2": "etn:overworld/erosion/condition/1"
+        }
+      },
+      "argument2": {
+        "type": "minecraft:add",
+        "argument1": 1,
+        "argument2": {
+          "type": "minecraft:mul",
+          "argument1": -0.65,
+          "argument2": "etn:overworld/ridges/r_water/effect/r_w"
+        }
+      }
+    }
+  }
+}

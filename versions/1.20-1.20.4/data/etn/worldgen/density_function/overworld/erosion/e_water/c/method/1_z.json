@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:shifted_noise",
+      "noise": "etn:e/3",
+      "xz_scale": 0.5,
+      "y_scale": 0,
+      "shift_x": -3,
+      "shift_y": 0,
+      "shift_z": 3
+    },
+    "argument2": {
+      "type": "minecraft:mul",
+      "argument1": -1,
+      "argument2": "etn:overworld/erosion/e_water/c/1"
+    }
+  }
+}

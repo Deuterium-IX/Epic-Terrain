@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:shifted_noise",
+      "noise": "minecraft:temperature",
+      "xz_scale": 0.5,
+      "y_scale": 0,
+      "shift_x": 0,
+      "shift_y": 0,
+      "shift_z": 1000
+    },
+    "argument2": {
+      "type": "minecraft:mul",
+      "argument1": -1,
+      "argument2": "etn:overworld/condition/temperature/1"
+    }
+  }
+}

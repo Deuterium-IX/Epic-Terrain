@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:range_choice",
+  "input": "etn:overworld/continents/1",
+  "min_inclusive": -0.16,
+  "max_exclusive": 1,
+  "when_in_range": {
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:mul",
+      "argument1": {
+        "type": "minecraft:add",
+        "argument1": "etn:overworld/continents/1",
+        "argument2": {
+          "type": "minecraft:noise",
+          "noise": "etn:continentalness1",
+          "xz_scale": 1,
+          "y_scale": 0
+        }
+      },
+      "argument2": 0.05
+    },
+    "argument2": "etn:overworld/continents/1"
+  },
+  "when_out_of_range": "etn:overworld/continents/1"
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:square",
+      "argument": "etn:overworld/erosion/e_water/a/1"
+    },
+    "argument2": {
+      "type": "minecraft:mul",
+      "argument1": 28,
+      "argument2": {
+        "type": "minecraft:min",
+        "argument1": {
+          "type": "minecraft:abs",
+          "argument": "etn:overworld/erosion/e_water/a/method/1_x"
+        },
+        "argument2": {
+          "type": "minecraft:abs",
+          "argument": "etn:overworld/erosion/e_water/a/method/1_z"
+        }
+      }
+    }
+  }
+}

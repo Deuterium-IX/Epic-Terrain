@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:max",
+    "argument1": "etn:overworld/ridges/r_water/method/5",
+    "argument2": {
+      "type": "minecraft:spline",
+      "spline": {
+        "coordinate": "etn:overworld/ridges/r_water/method/1",
+        "points": [
+          {
+            "location": 0.19,
+            "derivative": 0,
+            "value": -1
+          },
+          {
+            "location": 0.2,
+            "derivative": 0,
+            "value": 0.18
+          },
+          {
+            "location": 1,
+            "derivative": 0,
+            "value": {
+              "coordinate": "etn:overworld/ridges/r_water/method/5",
+              "points": [
+                {
+                  "location": 0,
+                  "derivative": 0,
+                  "value": 0.2
+                },
+                {
+                  "location": 1,
+                  "derivative": 0,
+                  "value": 1
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}
