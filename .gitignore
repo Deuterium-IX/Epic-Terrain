@@ -15,3 +15,5 @@ build/
 # Local staging / working files
 _download/
 _stage/
+__pycache__/
+*.pyc

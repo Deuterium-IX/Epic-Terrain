@@ -10,10 +10,8 @@
             "weight": 2,
             "data": {
               "type": "minecraft:biased_to_bottom",
-              "value": {
-                "min_inclusive": 5,
-                "max_inclusive": 15
-              }
+              "min_inclusive": 5,
+              "max_inclusive": 15
             }
           },
           {

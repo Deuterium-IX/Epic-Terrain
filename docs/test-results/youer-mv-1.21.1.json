@@ -1,0 +1,243 @@
+{
+  "seed": 246813579,
+  "sampleChunks": [
+    [
+      256,
+      256
+    ],
+    [
+      -257,
+      193
+    ]
+  ],
+  "cases": {
+    "baseline": {
+      "world": {
+        "dimensions": {
+          "minecraft:overworld": {
+            "type": "minecraft:overworld",
+            "settings": "minecraft:overworld"
+          },
+          "minecraft:the_nether": {
+            "type": "minecraft:the_nether",
+            "settings": "minecraft:nether"
+          },
+          "minecraft:the_end": {
+            "type": "minecraft:the_end",
+            "settings": "minecraft:end"
+          }
+        },
+        "samples": [
+          {
+            "blockAndBiomeNbtHash": "66720f95cc2789967c5cc90e24cc2072f652137d184812b46e763d9d72e987da",
+            "oceanFloorHash": "908b27587323e439b646b388c4ac1f9bbb2aa60af41d9773c7353f073493793c",
+            "biomeHash": "3db277a1ed48d91cb9c814bb9f0710ac3e402057e4c1000e8dd77966529772f4"
+          },
+          {
+            "blockAndBiomeNbtHash": "a3d831e896fa6e63151992538c0d7a852d51d96926f1010a366611802747af82",
+            "oceanFloorHash": "2515b81a1eb501fbd1c5602c36fd671ef07f219a9818bda6e7a26a6c86b5f8ef",
+            "biomeHash": "b2919b4c43682a8c37d05b24204fe863ea6683a9f8f4c40e45e842254b514b3c"
+          }
+        ]
+      },
+      "resource": {
+        "dimensions": {
+          "minecraft:overworld": {
+            "type": "minecraft:overworld",
+            "settings": "minecraft:overworld"
+          },
+          "minecraft:the_nether": {
+            "type": "minecraft:the_nether",
+            "settings": "minecraft:nether"
+          },
+          "minecraft:the_end": {
+            "type": "minecraft:the_end",
+            "settings": "minecraft:end"
+          }
+        },
+        "samples": [
+          {
+            "blockAndBiomeNbtHash": "dafc3ca342391eda477d5c89820156991ef49584ed967798fccc2543668d99e9",
+            "oceanFloorHash": "908b27587323e439b646b388c4ac1f9bbb2aa60af41d9773c7353f073493793c",
+            "biomeHash": "3db277a1ed48d91cb9c814bb9f0710ac3e402057e4c1000e8dd77966529772f4"
+          },
+          {
+            "blockAndBiomeNbtHash": "e84e8a7f9f3835663fe17f8ca5806a1bf2bd9c966daf3cdfce6ae051533a8331",
+            "oceanFloorHash": "2515b81a1eb501fbd1c5602c36fd671ef07f219a9818bda6e7a26a6c86b5f8ef",
+            "biomeHash": "b2919b4c43682a8c37d05b24204fe863ea6683a9f8f4c40e45e842254b514b3c"
+          }
+        ]
+      }
+    },
+    "normal-with-pack": {
+      "world": {
+        "dimensions": {
+          "minecraft:overworld": {
+            "type": "minecraft:overworld",
+            "settings": "minecraft:overworld"
+          },
+          "minecraft:the_nether": {
+            "type": "minecraft:the_nether",
+            "settings": "minecraft:nether"
+          },
+          "minecraft:the_end": {
+            "type": "minecraft:the_end",
+            "settings": "minecraft:end"
+          }
+        },
+        "samples": [
+          {
+            "blockAndBiomeNbtHash": "66720f95cc2789967c5cc90e24cc2072f652137d184812b46e763d9d72e987da",
+            "oceanFloorHash": "908b27587323e439b646b388c4ac1f9bbb2aa60af41d9773c7353f073493793c",
+            "biomeHash": "3db277a1ed48d91cb9c814bb9f0710ac3e402057e4c1000e8dd77966529772f4"
+          },
+          {
+            "blockAndBiomeNbtHash": "e84e8a7f9f3835663fe17f8ca5806a1bf2bd9c966daf3cdfce6ae051533a8331",
+            "oceanFloorHash": "2515b81a1eb501fbd1c5602c36fd671ef07f219a9818bda6e7a26a6c86b5f8ef",
+            "biomeHash": "b2919b4c43682a8c37d05b24204fe863ea6683a9f8f4c40e45e842254b514b3c"
+          }
+        ]
+      },
+      "resource": {
+        "dimensions": {
+          "minecraft:overworld": {
+            "type": "minecraft:overworld",
+            "settings": "minecraft:overworld"
+          },
+          "minecraft:the_nether": {
+            "type": "minecraft:the_nether",
+            "settings": "minecraft:nether"
+          },
+          "minecraft:the_end": {
+            "type": "minecraft:the_end",
+            "settings": "minecraft:end"
+          }
+        },
+        "samples": [
+          {
+            "blockAndBiomeNbtHash": "66720f95cc2789967c5cc90e24cc2072f652137d184812b46e763d9d72e987da",
+            "oceanFloorHash": "908b27587323e439b646b388c4ac1f9bbb2aa60af41d9773c7353f073493793c",
+            "biomeHash": "3db277a1ed48d91cb9c814bb9f0710ac3e402057e4c1000e8dd77966529772f4"
+          },
+          {
+            "blockAndBiomeNbtHash": "e84e8a7f9f3835663fe17f8ca5806a1bf2bd9c966daf3cdfce6ae051533a8331",
+            "oceanFloorHash": "2515b81a1eb501fbd1c5602c36fd671ef07f219a9818bda6e7a26a6c86b5f8ef",
+            "biomeHash": "b2919b4c43682a8c37d05b24204fe863ea6683a9f8f4c40e45e842254b514b3c"
+          }
+        ]
+      }
+    },
+    "epic-with-pack": {
+      "world": {
+        "dimensions": {
+          "minecraft:overworld": {
+            "type": "etn:epic/overworld",
+            "settings": "etn:epic/overworld"
+          },
+          "minecraft:the_nether": {
+            "type": "minecraft:the_nether",
+            "settings": "minecraft:nether"
+          },
+          "minecraft:the_end": {
+            "type": "minecraft:the_end",
+            "settings": "minecraft:end"
+          }
+        },
+        "samples": [
+          {
+            "blockAndBiomeNbtHash": "a28fb27b3c38b9f8832fcbacbdc91e4f430d6f6195f3b8793794fc5cd49d9354",
+            "oceanFloorHash": "70a92efc87c6d3c980cc6f0e2530efe920e5340ea2e29fd17e3e864bcd78ccfc",
+            "biomeHash": "9c9ff4e56d2bfa4c3657e91571555816c1625c4484c339ce6d44bdda5c69db02"
+          },
+          {
+            "blockAndBiomeNbtHash": "408df8a75b848a13201b4f6a472c0e2da0310b29ba02c73f755ce65e06ab3099",
+            "oceanFloorHash": "d58db7be8783c7510bab48935e814a177f98a0a9531147278f3417c729809eb2",
+            "biomeHash": "ad39119515173031d7e41cf9c88034f932b4804d85843b3765abb9f93b5dba13"
+          }
+        ]
+      },
+      "resource": {
+        "dimensions": {
+          "minecraft:overworld": {
+            "type": "minecraft:overworld",
+            "settings": "minecraft:overworld"
+          },
+          "minecraft:the_nether": {
+            "type": "minecraft:the_nether",
+            "settings": "minecraft:nether"
+          },
+          "minecraft:the_end": {
+            "type": "minecraft:the_end",
+            "settings": "minecraft:end"
+          }
+        },
+        "samples": [
+          {
+            "blockAndBiomeNbtHash": "66720f95cc2789967c5cc90e24cc2072f652137d184812b46e763d9d72e987da",
+            "oceanFloorHash": "908b27587323e439b646b388c4ac1f9bbb2aa60af41d9773c7353f073493793c",
+            "biomeHash": "3db277a1ed48d91cb9c814bb9f0710ac3e402057e4c1000e8dd77966529772f4"
+          },
+          {
+            "blockAndBiomeNbtHash": "a3d831e896fa6e63151992538c0d7a852d51d96926f1010a366611802747af82",
+            "oceanFloorHash": "2515b81a1eb501fbd1c5602c36fd671ef07f219a9818bda6e7a26a6c86b5f8ef",
+            "biomeHash": "b2919b4c43682a8c37d05b24204fe863ea6683a9f8f4c40e45e842254b514b3c"
+          }
+        ]
+      }
+    }
+  },
+  "sha256": {
+    "pack": "c7ac66f4356c9e732fc0c3e6c9a9abc5e64c0dc08a34bc3876e824b152c8f895",
+    "youer": "dbea82c3db81e1f60a8dddf3a74299006aa02dd33dfdd5889935bc1df2da1c5d",
+    "mv": "bc3f34e2d747fdf024f44868747bb016b08fa11d98ccb4ffcac958f083151a83",
+    "yourfix": "0d1bb3d4df19768f1b25c0f202a5c4d4f1725aef134cad7c3a06863b652b8b3b"
+  },
+  "comparison": "OCEAN_FLOOR heightmap and decoded per-position biome palette",
+  "limitation": "Full block NBT hashes are diagnostic only: repeated no-EPC baseline runs also differed in ore and vegetation placement. No claim of bit-identical decoration or every block.",
+  "passed": true,
+  "runtime": {
+    "minecraft": "1.21.1",
+    "youer": "f15a736d",
+    "neoforge": "21.1.248",
+    "multiverse": "5.8.1",
+    "yourfix": "1.1.0",
+    "clientRequired": false
+  },
+  "testConfig": {
+    "auto-import-default-worlds": false,
+    "auto-import-3rd-party-worlds": false,
+    "note": "Avoids stock MV/Youer duplicate End registration also reproduced without EPC."
+  },
+  "bootChecks": {
+    "baseline/1": {
+      "ready": true,
+      "samplesLoaded": true,
+      "cleanStop": true
+    },
+    "baseline/2": {
+      "ready": true,
+      "samplesLoaded": true,
+      "cleanStop": true
+    },
+    "normal-with-pack/1": {
+      "ready": true,
+      "samplesLoaded": true,
+      "cleanStop": true
+    },
+    "normal-with-pack/2": {
+      "ready": true,
+      "samplesLoaded": true,
+      "cleanStop": true
+    },
+    "epic-with-pack/1": {
+      "ready": true,
+      "samplesLoaded": true,
+      "cleanStop": true
+    },
+    "epic-with-pack/2": {
+      "ready": true,
+      "samplesLoaded": true,
+      "cleanStop": true
+    }
+  }
+}

@@ -6,13 +6,13 @@
       "type": "minecraft:add",
       "argument1": {
         "type": "minecraft:noise",
-        "noise": "minecraft:vegetation",
+        "noise": "etn:epic/vegetation",
         "xz_scale": 0.2,
         "y_scale": 0
       },
       "argument2": {
         "type": "minecraft:noise",
-        "noise": "minecraft:vegetation1",
+        "noise": "etn:epic/vegetation1",
         "xz_scale": 1,
         "y_scale": 0
       }
@@ -21,7 +21,7 @@
   },
   "argument2": {
     "type": "minecraft:noise",
-    "noise": "minecraft:vegetation",
+    "noise": "etn:epic/vegetation",
     "xz_scale": 0.2,
     "y_scale": 0
   }
