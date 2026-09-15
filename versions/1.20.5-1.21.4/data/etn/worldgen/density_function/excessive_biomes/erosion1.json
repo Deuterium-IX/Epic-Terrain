@@ -12,7 +12,7 @@
         "argument1": "etn:overworld/continents/c1",
         "argument2": {
           "type": "minecraft:noise",
-          "noise": "minecraft:erosion1",
+          "noise": "etn:epic/erosion1",
           "xz_scale": 1,
           "y_scale": 0
         }

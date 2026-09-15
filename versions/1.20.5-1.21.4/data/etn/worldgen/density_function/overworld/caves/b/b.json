@@ -7,7 +7,7 @@
       "spline": {
         "coordinate": {
           "type": "minecraft:noise",
-          "noise": "minecraft:temperature",
+          "noise": "etn:epic/temperature",
           "xz_scale": 2.5,
           "y_scale": 0
         },

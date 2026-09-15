@@ -167,7 +167,7 @@
                 "location": 0.1,
                 "derivative": 0,
                 "value": {
-                  "coordinate": "minecraft:overworld/vegetation",
+                  "coordinate": "etn:epic/overworld/vegetation",
                   "points": [
                     {
                       "location": -0.15,

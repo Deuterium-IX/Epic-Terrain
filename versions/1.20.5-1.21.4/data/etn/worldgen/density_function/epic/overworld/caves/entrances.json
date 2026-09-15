@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:cache_once",
+  "argument": {
+    "type": "minecraft:range_choice",
+    "input": "etn:epic/overworld/caves/entrances1",
+    "min_inclusive": -1,
+    "max_exclusive": 0.1,
+    "when_in_range": {
+      "type": "minecraft:range_choice",
+      "input": "etn:epic/overworld/ridges",
+      "min_inclusive": 0.06,
+      "max_exclusive": 1,
+      "when_in_range": {
+        "type": "minecraft:range_choice",
+        "input": "etn:epic/overworld/erosion",
+        "min_inclusive": -1,
+        "max_exclusive": 1,
+        "when_in_range": "etn:epic/overworld/caves/entrances1",
+        "when_out_of_range": 0.02
+      },
+      "when_out_of_range": 1
+    },
+    "when_out_of_range": 1
+  }
+}
