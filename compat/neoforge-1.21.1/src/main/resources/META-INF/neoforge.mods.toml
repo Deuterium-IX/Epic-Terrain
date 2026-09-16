@@ -1,0 +1,10 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+[[mods]]
+modId="d9_epc_worldgen_fix"
+version="1.0.1-d9.1"
+displayName="D9 EPC Worldgen Fix"
+description="Server-only water lake and snow biome lookup fix for Minecraft 1.21.1."
+[[mixins]]
+config="d9_epc_worldgen_fix.mixins.json"

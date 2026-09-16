@@ -17,3 +17,5 @@ _download/
 _stage/
 __pycache__/
 *.pyc
+.gradle/
+**/build/

@@ -17,3 +17,19 @@ jobs:
         with:
           name: epic-terrain-mc1.21.1
           path: dist/*
+  server-fix:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: compat/neoforge-1.21.1
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+      - run: bash gradlew build --no-daemon
+      - uses: actions/upload-artifact@v4
+        with:
+          name: epc-worldgen-fix-neoforge-1.21.1
+          path: compat/neoforge-1.21.1/build/libs/*.jar
