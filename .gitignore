@@ -19,3 +19,5 @@ __pycache__/
 *.pyc
 .gradle/
 **/build/
+compat/neoforge-1.21.1/*.log
+compat/neoforge-1.21.1/logs/

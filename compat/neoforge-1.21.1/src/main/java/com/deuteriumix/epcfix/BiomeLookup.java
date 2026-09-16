@@ -6,14 +6,18 @@ import net.minecraft.core.QuartPos;
 import net.minecraft.world.level.WorldGenLevel;
 import net.minecraft.world.level.biome.Biome;
 import com.mojang.logging.LogUtils;
+import net.minecraft.ReportedException;
 
 public final class BiomeLookup {
     private static final AtomicInteger FALLBACKS = new AtomicInteger();
     public static Holder<Biome> get(WorldGenLevel level, BlockPos pos) {
         try {
             return level.getBiome(pos);
-        } catch (IllegalStateException error) {
-            if (!"Requested chunk unavailable during world generation".equals(error.getMessage())) throw error;
+        } catch (IllegalStateException | ReportedException error) {
+            // WorldGenRegion wraps its IllegalStateException in a crash report.
+            Throwable cause = error instanceof ReportedException ? error.getCause() : error;
+            if (!(cause instanceof IllegalStateException)
+                    || !"Requested chunk unavailable during world generation".equals(cause.getMessage())) throw error;
             // Noise biome sampling uses quart coordinates, not block coordinates.
             var biome = level.getUncachedNoiseBiome(QuartPos.fromBlock(pos.getX()),
                     QuartPos.fromBlock(pos.getY()), QuartPos.fromBlock(pos.getZ()));

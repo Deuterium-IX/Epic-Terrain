@@ -1,5 +1,5 @@
 plugins { id 'java-library'; id 'net.neoforged.moddev' version '2.0.140' }
-version='1.0.1-d9.1'
+version='1.0.1-d9.2'
 java { toolchain.languageVersion=JavaLanguageVersion.of(21) }
 neoForge { version='21.1.248'; mods { d9_epc_worldgen_fix { sourceSet sourceSets.main } } }
 repositories { mavenCentral() }
