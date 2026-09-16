@@ -15,6 +15,8 @@ EPC 的逻辑来自服务端数据包，不需要客户端安装 EPC，也不需
 
 ## 新建 EPC 建筑主世界
 
+Minecraft 1.21.1 必须先安装[服务端湖泊兼容补丁](../compat/neoforge-1.21.1/README.md)。数据包中水湖的旧 JSON 格式修正与运行时的邻区块查询崩溃是两个不同问题，前者修好不代表可以省略运行时补丁。
+
 下面是 Youer / NeoForge 服务端的首次创建配置。请使用全新的世界目录；已有 `level.dat` 时仅改 `level-type` 不会替换存档的生成器。
 
 1. 把构建得到的 ZIP 放到 `world/datapacks/`。
@@ -77,6 +79,8 @@ python tools/build.py
 `tools/smoke_server.py` 会创建三个全新服务端实例，各启动两次。模板仅提供 `youer.jar`、`libraries/` 和已经接受的 `eula.txt`，不复制世界、玩家或业务配置。它只使用本地回环地址，输出位于仓库 `build/`。
 
 安装 Python 的 `nbtlib`，并准备 Java 21、Youer 运行目录、MV 和 YourFix JAR 后执行：
+
+下面的基础隔离测试检查预设路由；涉及水湖的大范围生成还应安装上述兼容补丁并做针对性验证。
 
 ```text
 python tools/smoke_server.py --template <runtime-directory> --mv-jar <multiverse.jar> --yourfix-jar <yourfix.jar> --java <java-executable>
